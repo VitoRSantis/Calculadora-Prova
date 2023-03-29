@@ -30,7 +30,7 @@ public class CalculadoraService
         return soma / valores.Length;
     }
 
-    public double Mediana(params double[] valores)
+    public double Mediana(int[] array1, params double[] valores)
     {
         Array.Sort(valores);
         int tamanho = valores.Length;
